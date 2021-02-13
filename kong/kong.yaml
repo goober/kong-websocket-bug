@@ -1,0 +1,9 @@
+_format_version: "1.1"
+
+services:
+  - name: websocket
+    url: http://websocket:8080
+    routes:
+    - name: my-route
+      paths:
+      - /

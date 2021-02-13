@@ -1,0 +1,6 @@
+#logging.level.ROOT: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
